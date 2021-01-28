@@ -11,7 +11,7 @@ def main():
         path = str(input("Enter the path of the folder : "))
         # The name you want to give to those files.
         rename = str(input("Enter the new name you want to give : "))
-        # rename = rename + str(')
+        # rename = rename + "/"
         # file extension
         extension = str(input("Enter the extension of the file :  "))
         for filename in os.listdir(path):
